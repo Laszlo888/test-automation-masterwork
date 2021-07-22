@@ -1,4 +1,4 @@
-Tesztelendő webalkalmazás elérhetősége:
+Tesztelendő webalkalmazás elérhetősége:<br>
 http://test-automation-shop1.greenfox.academy/
 
 Teszkörnyezet: Mozilla firefox<br>
@@ -16,7 +16,7 @@ tesztelt funkciók:
 - Adatok mentése a webapplikációból fájlba
 - Kijelentkezés
 
-tesztesetek az automata teszteléshez:
+tesztesetek az automata teszteléshez:<br>
 https://drive.google.com/file/d/1lBes950a8msmY8jKCDci1MIAMEmhnDN1/view?usp=sharing
 
 
