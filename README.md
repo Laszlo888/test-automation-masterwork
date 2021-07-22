@@ -1,22 +1,22 @@
-Tesztelendõ webalkalmazás elérhetõsége:
+TesztelendÅ‘ webalkalmazÃ¡s elÃ©rhetÅ‘sÃ©ge:
 http://test-automation-shop1.greenfox.academy/
 
-Teszkörnyezet: Mozilla firefox
-Programnyelv: Java (kiegészítõk: gradle,selenium webdriver,junit)
+TeszkÃ¶rnyezet: Mozilla firefox<br>
+Programnyelv: Java (kiegÃ©szÃ­tÅ‘k: gradle,selenium webdriver,junit)
 
-tesztelt funkciók:
-- Regisztráció, adatvédelmi nyilatkozatot használva
-- Bejelentkezés
-- Adat listázása
-- Több oldalnyi adat listázása
-- Új adat bevitele,mentése
-- Ismétlõdõ adatbevitel külsõ forrásból
-- Meglévõ adatok módosítása
-- Adatok törlése
-- Adatok mentése a webapplikációból fájlba
-- Kijelentkezés
+tesztelt funkciÃ³k:
+- RegisztrÃ¡ciÃ³, adatvÃ©delmi nyilatkozatot hasznÃ¡lva
+- BejelentkezÃ©s
+- Adat listÃ¡zÃ¡sa
+- TÃ¶bb oldalnyi adat listÃ¡zÃ¡sa
+- Ãšj adat bevitele,mentÃ©se
+- IsmÃ©tlÅ‘dÅ‘ adatbevitel kÃ¼lsÅ‘ forrÃ¡sbÃ³l
+- MeglÃ©vÅ‘ adatok mÃ³dosÃ­tÃ¡sa
+- Adatok tÃ¶rlÃ©se
+- Adatok mentÃ©se a webapplikÃ¡ciÃ³bÃ³l fÃ¡jlba
+- KijelentkezÃ©s
 
-tesztesetek az automata teszteléshez:
+tesztesetek az automata tesztelÃ©shez:
 https://drive.google.com/file/d/1lBes950a8msmY8jKCDci1MIAMEmhnDN1/view?usp=sharing
 
 
