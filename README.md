@@ -4,7 +4,7 @@ http://test-automation-shop1.greenfox.academy/
 Teszkörnyezet: Mozilla firefox<br>
 Programnyelv: Java (kiegészítők: gradle,selenium webdriver,junit)
 
-tesztelt funkciók:
+Tesztelt funkciók:
 - Regisztráció, adatvédelmi nyilatkozatot használva
 - Bejelentkezés
 - Adat listázása
@@ -16,7 +16,7 @@ tesztelt funkciók:
 - Adatok mentése a webapplikációból fájlba
 - Kijelentkezés
 
-tesztesetek az automata teszteléshez:<br>
-https://drive.google.com/file/d/1lBes950a8msmY8jKCDci1MIAMEmhnDN1/view?usp=sharing
+Tesztesetek az automata teszteléshez:<br>
+<a href="https://drive.google.com/file/d/1lBes950a8msmY8jKCDci1MIAMEmhnDN1/view?usp=sharingˇ">tesztesetek</a>
 
 
