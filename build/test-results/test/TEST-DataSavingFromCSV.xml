@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DataSavingFromCSV" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-27T14:00:43" hostname="VeresLaszlo-PC" time="15.448">
+  <properties/>
+  <testcase name="saveAddress(String, String, String)[1]" classname="DataSavingFromCSV" time="15.448"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1627394444756	geckodriver	INFO	Listening on 127.0.0.1:41578
+1627394445493	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileHFg8N5"
+1627394446183	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileHFg8N5\\search.json.mozlz4", (void 0)))
+1627394450757	Marionette	INFO	Listening on port 53272
+1627394451281	Marionette	WARN	TLS certificate errors will be ignored for this session
+júl. 27, 2021 4:00:51 DU. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1627394457577	Marionette	INFO	Stopped listening on port 53272
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+]]></system-err>
+</testsuite>
