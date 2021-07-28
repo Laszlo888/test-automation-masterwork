@@ -17,6 +17,6 @@ Tesztelt funkciók:
 - Kijelentkezés
 
 Tesztesetek az automata teszteléshez:<br>
-<a href="https://drive.google.com/file/d/1lBes950a8msmY8jKCDci1MIAMEmhnDN1/view?usp=sharingˇ">tesztesetek</a>
+<a href="https://drive.google.com/file/d/1luzG_1InTjkPGdTpRivkrEYIaCZ7Zo28/view?usp=sharing">tesztesetek</a>
 
 
