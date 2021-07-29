@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MWPR_09_DataChange" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-29T14:14:12" hostname="VeresLaszlo-PC" time="6.495">
+  <properties/>
+  <testcase name="changingLastName()" classname="MWPR_09_DataChange" time="6.495"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1627568043170	geckodriver	INFO	Listening on 127.0.0.1:39000
+1627568043641	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofilem170gz"
+1627568044255	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofilem170gz\\search.json.mozlz4", (void 0)))
+1627568048895	Marionette	INFO	Listening on port 54918
+1627568049444	Marionette	WARN	TLS certificate errors will be ignored for this session
+júl. 29, 2021 4:14:09 DU. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1627568057646	Marionette	INFO	Stopped listening on port 54918
+]]></system-err>
+</testsuite>

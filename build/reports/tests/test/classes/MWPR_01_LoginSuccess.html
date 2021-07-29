@@ -3,17 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - Class MWPR_08_DataSavingFromCSV</title>
+<title>Test results - Class MWPR_01_LoginSuccess</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>Class MWPR_08_DataSavingFromCSV</h1>
+<h1>Class MWPR_01_LoginSuccess</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
-<a href="../packages/default-package.html">default-package</a> &gt; MWPR_08_DataSavingFromCSV</div>
+<a href="../packages/default-package.html">default-package</a> &gt; MWPR_01_LoginSuccess</div>
 <div id="summary">
 <table>
 <tr>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">5.371s</div>
+<div class="counter">3.506s</div>
 <p>duration</p>
 </div>
 </td>
@@ -73,15 +73,13 @@
 <thead>
 <tr>
 <th>Test</th>
-<th>Method name</th>
 <th>Duration</th>
 <th>Result</th>
 </tr>
 </thead>
 <tr>
-<td class="success">[1] 36th Ave 113, Anchorage, 99501</td>
-<td class="success">saveAddress(String, String, String)[1]</td>
-<td class="success">5.371s</td>
+<td class="success">successfulLogin()</td>
+<td class="success">3.506s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -89,16 +87,23 @@
 <div id="tab1" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>1627568028686	geckodriver	INFO	Listening on 127.0.0.1:41371
-1627568029156	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofilekRuTuv&quot;
-1627568029727	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofilekRuTuv\\search.json.mozlz4&quot;, (void 0)))
-1627568034636	Marionette	INFO	Listening on port 54867
-1627568034902	Marionette	WARN	TLS certificate errors will be ignored for this session
-júl. 29, 2021 4:13:54 DU. org.openqa.selenium.remote.ProtocolHandshake createSession
+<pre>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1627567933566	geckodriver	INFO	Listening on 127.0.0.1:47156
+1627567934388	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofilerVIEgi&quot;
+1627567935006	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofilerVIEgi\\search.json.mozlz4&quot;, (void 0)))
+1627567940770	Marionette	INFO	Listening on port 54509
+1627567941204	Marionette	WARN	TLS certificate errors will be ignored for this session
+júl. 29, 2021 4:12:21 DU. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1627568041718	Marionette	INFO	Stopped listening on port 54867
-[Parent 6996, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1627567946344	Marionette	INFO	Stopped listening on port 54509
+[Parent 8156, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 8156, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
 </pre>
 </span>
 </div>

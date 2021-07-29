@@ -6,9 +6,8 @@ public class MWPR_04_RegSuccess extends BaseTest {
 
   String firstName = "Jozsef";
   String lastName = "Cece";
-  String email = "cecej@gmail.com";
+  String email = "cecebbaaj@gmail.com";
   String password = "Asdfghj1";
-
 
   @Test
   public void successfulRegistration() {
@@ -24,6 +23,20 @@ public class MWPR_04_RegSuccess extends BaseTest {
     driver.findElement(By.xpath("//input[@name='customer_privacy']")).click();
     driver.findElement(By.xpath("//input[@name='psgdpr']")).click();
     driver.findElement(By.xpath("//button[contains(text(),'Save')]")).click();
+
+    wait.until(ExpectedConditions.presenceOfElementLocated(By.partialLinkText("Ecommerce")));
+
+    // if email is already registered
+    try {
+      driver.findElement(By.xpath("//li[@class='alert alert-danger']")).isDisplayed();
+      driver.findElement(By.xpath("//input[@name='email']")).clear();
+      driver.findElement(By.xpath("//input[@name='email']")).sendKeys("aa" + email);
+      driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
+      driver.findElement(By.xpath("//button[contains(text(),'Save')]")).click();
+    } catch (Exception ignored) {
+    }
+
+    // check logged in name
     wait.until(
         ExpectedConditions.presenceOfElementLocated(
             By.xpath("//span[contains(text(),'" + firstName + " " + lastName + "')]")));

@@ -7,7 +7,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class MWPR_09_DataChange extends BaseTest {
 
   @Test
-  public void changingLastname() {
+  public void changingLastName() {
 
     login();
 
@@ -23,8 +23,10 @@ public class MWPR_09_DataChange extends BaseTest {
     wait.until(ExpectedConditions.presenceOfElementLocated(By.partialLinkText("Ecommerce")));
 
     // change lastname, fill form
+    String currentName = driver.findElement(By.xpath("//input[@name='lastname']")).getAttribute("value");
+    String changedName = currentName+"-MwalkrT";
     driver.findElement(By.xpath("//input[@name='lastname']")).clear();
-    driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("Cece-Kovács");
+    driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys(changedName);
     driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Asdfghj1");
     driver.findElement(By.xpath("//input[@name='customer_privacy']")).click();
     driver.findElement(By.xpath("//input[@name='psgdpr']")).click();
@@ -45,6 +47,6 @@ public class MWPR_09_DataChange extends BaseTest {
     assertThat(successMessage)
         .as("Message should be: Information successfully updated.")
         .isEqualTo("Information successfully updated.");
-    assertThat(changedLastName).as("Lastname should be changed.").isNotEqualTo(currentLastName);
+    assertThat(changedLastName).as("Last name should be changed.").isNotEqualTo(currentLastName);
   }
 }

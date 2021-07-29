@@ -15,6 +15,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -45,33 +48,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MWPR_08_DataSavingFromCSV.saveAddress">
-    <configuration name="MWPR_01_LoginSuccess.successfulLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Tests in 'masterwork_VL.test'">
+    <configuration name="MWPR_04_RegSuccess.successfulRegistration" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MWPR_01_LoginSuccess.successfulLogin&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MWPR_07_DataSaving.saveProductInCart" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MWPR_07_DataSaving.saveProductInCart&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MWPR_04_RegSuccess.successfulRegistration&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -126,12 +109,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MWPR_10_DataDelete.deleteProductFromCart" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MWPR_12_LogOutSuccess.pagination" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;MWPR_10_DataDelete.deleteProductFromCart&quot;" />
+        <option name="scriptParameters" value="--tests &quot;MWPR_12_LogOutSuccess.pagination&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'masterwork_VL.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -148,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MWPR_08_DataSavingFromCSV.saveAddress" />
-        <item itemvalue="Gradle.MWPR_10_DataDelete.deleteProductFromCart" />
-        <item itemvalue="Gradle.MWPR_07_DataSaving.saveProductInCart" />
+        <item itemvalue="Gradle.Tests in 'masterwork_VL.test'" />
+        <item itemvalue="Gradle.MWPR_04_RegSuccess.successfulRegistration" />
         <item itemvalue="Gradle.MWPR_09_DataChange.changingLastname" />
-        <item itemvalue="Gradle.MWPR_01_LoginSuccess.successfulLogin" />
+        <item itemvalue="Gradle.MWPR_08_DataSavingFromCSV.saveAddress" />
+        <item itemvalue="Gradle.MWPR_12_LogOutSuccess.pagination" />
       </list>
     </recent_temporary>
   </component>
@@ -174,21 +177,29 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="717" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032@0.0.1920.1032" timestamp="1627303778994" />
-    <state width="1864" height="258" key="GridCell.Tab.0.bottom" timestamp="1627483487525">
+    <state x="685" y="208" key="FileChooserDialogImpl" timestamp="1627536210492">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1627483487525" />
-    <state width="1864" height="258" key="GridCell.Tab.0.center" timestamp="1627483487525">
+    <state x="685" y="208" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1627536210492" />
+    <state width="1864" height="258" key="GridCell.Tab.0.bottom" timestamp="1627568288176">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1627483487525" />
-    <state width="1864" height="258" key="GridCell.Tab.0.left" timestamp="1627483487525">
+    <state width="1864" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1627568288176" />
+    <state width="1864" height="258" key="GridCell.Tab.0.center" timestamp="1627568288174">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1627483487525" />
-    <state width="1864" height="258" key="GridCell.Tab.0.right" timestamp="1627483487525">
+    <state width="1864" height="258" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1627568288174" />
+    <state width="1864" height="258" key="GridCell.Tab.0.left" timestamp="1627568288174">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1627483487525" />
+    <state width="1864" height="258" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1627568288174" />
+    <state width="1864" height="258" key="GridCell.Tab.0.right" timestamp="1627568288174">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="258" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1627568288174" />
+    <state x="488" y="22" width="1108" height="987" key="new project wizard" timestamp="1627536278875">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="488" y="22" width="1108" height="987" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1627536278875" />
   </component>
 </project>

@@ -21,41 +21,36 @@ public class MWPR_08_DataSavingFromCSV extends BaseTest {
       driver.findElement(By.xpath("//span[contains(text(),'Update')]")).click();
       wait.until(
           ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='postcode']")));
-      // fill from csv
-      driver.findElement(By.xpath("//input[@name='address1']")).clear();
-      driver.findElement(By.xpath("//input[@name='address1']")).sendKeys(address);
-      driver.findElement(By.xpath("//input[@name='city']")).clear();
-      driver.findElement(By.xpath("//input[@name='city']")).sendKeys(city);
-      driver.findElement(By.xpath("//input[@name='postcode']")).clear();
-      driver.findElement(By.xpath("//input[@name='postcode']")).sendKeys(postalCode);
 
-      Select state = new Select(driver.findElement(By.name("id_state")));
-      state.selectByVisibleText("Alaska");
-
-      driver.findElement(By.xpath("//button[contains(text(),'Save')]")).click();
+      fillForm(address, city, postalCode);
 
       wait.until(
           ExpectedConditions.presenceOfElementLocated(
               By.xpath(
                   "//article[@data-alert='success']/ul/li[contains(text(),'Address successfully updated!')]")));
     } else {
-      // fill from csv
-      driver.findElement(By.xpath("//input[@name='address1']")).clear();
-      driver.findElement(By.xpath("//input[@name='address1']")).sendKeys(address);
-      driver.findElement(By.xpath("//input[@name='city']")).clear();
-      driver.findElement(By.xpath("//input[@name='city']")).sendKeys(city);
-      driver.findElement(By.xpath("//input[@name='postcode']")).clear();
-      driver.findElement(By.xpath("//input[@name='postcode']")).sendKeys(postalCode);
 
-      Select state = new Select(driver.findElement(By.name("id_state")));
-      state.selectByVisibleText("Alaska");
-
-      driver.findElement(By.xpath("//button[contains(text(),'Save')]")).click();
+      fillForm(address, city, postalCode);
 
       wait.until(
           ExpectedConditions.presenceOfElementLocated(
               By.xpath(
                   "//article[@data-alert='success']/ul/li[contains(text(),'Address successfully added!')]")));
     }
+  }
+
+  public void fillForm(String address, String city, String postalCode ){
+    // fill from csv
+    driver.findElement(By.xpath("//input[@name='address1']")).clear();
+    driver.findElement(By.xpath("//input[@name='address1']")).sendKeys(address);
+    driver.findElement(By.xpath("//input[@name='city']")).clear();
+    driver.findElement(By.xpath("//input[@name='city']")).sendKeys(city);
+    driver.findElement(By.xpath("//input[@name='postcode']")).clear();
+    driver.findElement(By.xpath("//input[@name='postcode']")).sendKeys(postalCode);
+
+    Select state = new Select(driver.findElement(By.name("id_state")));
+    state.selectByVisibleText("Alaska");
+
+    driver.findElement(By.xpath("//button[contains(text(),'Save')]")).click();
   }
 }
