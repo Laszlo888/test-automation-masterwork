@@ -21,6 +21,13 @@ public class BaseTest {
   WebDriver driver;
   WebDriverWait wait;
 
+  String email;
+  String password;
+  String firstName;
+  String lastName;
+  String badPassword;
+  String alreadyUsedEmail;
+
   @BeforeAll
   public void setup() throws IOException {
 
@@ -28,6 +35,12 @@ public class BaseTest {
     InputStream propertiesStream = this.getClass().getResourceAsStream("/test.properties");
     properties.load(propertiesStream);
     String browser = properties.getProperty("browser");
+    email = properties.getProperty("email");
+    password = properties.getProperty("password");
+    firstName = properties.getProperty("firstname");
+    lastName = properties.getProperty("lastname");
+    badPassword = properties.getProperty("badpassword");
+    alreadyUsedEmail = properties.getProperty("alreadyusedemail");
 
     if (browser.equals("chrome")) {
       WebDriverManager.chromedriver().setup();
@@ -47,16 +60,29 @@ public class BaseTest {
   }
 
   public void login() {
-    String email = "cecej@gmail.com";
-    String password = "Asdfghj1";
+    //    String email = "cecej@gmail.com";
+    //    String password = "Asdfghj1";
 
     driver.findElement(By.xpath("//span[contains(text(),'Sign in')]")).click();
     wait.until(
             ExpectedConditions.elementToBeClickable(
-                By.xpath("//input[@name='email' and @class='form-control']")))
-        .sendKeys(email);
+                By.xpath("//input[@name='email' and @class='form-control']"))).sendKeys(email);
     driver.findElement(By.xpath("//input[@type='password']")).sendKeys(password);
     driver.findElement(By.id("submit-login")).click();
+
+    // if registration fails, using already registered email
+    try{ wait.until(
+            ExpectedConditions.presenceOfElementLocated(
+                By.xpath(
+                    "//section[@class='login-form']//li[contains(text(),'Authentication failed')]")))
+        .isDisplayed();
+      driver.findElement(By.xpath("//input[@name='email' and @class='form-control']")).clear();
+      driver
+          .findElement(By.xpath("//input[@name='email' and @class='form-control']")).sendKeys(alreadyUsedEmail);
+      driver.findElement(By.xpath("//input[@type='password']")).sendKeys(password);
+      driver.findElement(By.id("submit-login")).click();
+    } catch (Exception ignored){}
+    // waiting for presence of first name, last name (my account)
     wait.until(
         ExpectedConditions.presenceOfElementLocated(
             By.xpath("//a[@title='View my customer account']")));
@@ -98,9 +124,7 @@ public class BaseTest {
     WebElement productInCart =
         driver.findElement(By.xpath("//a[contains(text(),'Hummingbird printed sweater')]"));
 
-    return  productInCart;
-
-
+    return productInCart;
   }
 
   @AfterEach

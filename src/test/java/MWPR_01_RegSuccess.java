@@ -2,12 +2,9 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class MWPR_04_RegSuccess extends BaseTest {
+import java.util.Random;
 
-  String firstName = "Jozsef";
-  String lastName = "Cece";
-  String email = "cecebbaaj@gmail.com";
-  String password = "Asdfghj1";
+public class MWPR_01_RegSuccess extends BaseTest {
 
   @Test
   public void successfulRegistration() {
@@ -28,17 +25,35 @@ public class MWPR_04_RegSuccess extends BaseTest {
 
     // if email is already registered
     try {
-      driver.findElement(By.xpath("//li[@class='alert alert-danger']")).isDisplayed();
+      wait.until(
+          ExpectedConditions.visibilityOfElementLocated(
+              By.xpath("//li[@class='alert alert-danger']")));
+
+      // if email is registered, we generating new email address with random chars
+      Random r = new Random();
+      String ch = "123456789abcdefghijklmnopqrstuvwxyz";
+      int randomInt1 = r.nextInt(ch.length());
+      char randomChar1 = ch.charAt(randomInt1);
+      String r1 = Character.toString(randomChar1);
+
+      int randomInt2 = r.nextInt(ch.length());
+      char randomChar2 = ch.charAt(randomInt2);
+      String r2 = Character.toString(randomChar2);
+
+      int randomInt3 = r.nextInt(ch.length());
+      char randomChar3 = ch.charAt(randomInt3);
+      String r3 = Character.toString(randomChar3);
+
       driver.findElement(By.xpath("//input[@name='email']")).clear();
-      driver.findElement(By.xpath("//input[@name='email']")).sendKeys("aa" + email);
+      driver.findElement(By.xpath("//input[@name='email']")).sendKeys(r1 + r2 + r3 + email);
       driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
       driver.findElement(By.xpath("//button[contains(text(),'Save')]")).click();
     } catch (Exception ignored) {
     }
 
-    // check logged in name
+    // check logged in name is presence
     wait.until(
         ExpectedConditions.presenceOfElementLocated(
-            By.xpath("//span[contains(text(),'" + firstName + " " + lastName + "')]")));
+            By.xpath("//a[@title='View my customer account']")));
   }
 }

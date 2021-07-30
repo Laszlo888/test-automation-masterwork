@@ -23,11 +23,18 @@ public class MWPR_09_DataChange extends BaseTest {
     wait.until(ExpectedConditions.presenceOfElementLocated(By.partialLinkText("Ecommerce")));
 
     // change lastname, fill form
-    String currentName = driver.findElement(By.xpath("//input[@name='lastname']")).getAttribute("value");
-    String changedName = currentName+"-MwalkrT";
+    String currentName =
+        driver.findElement(By.xpath("//input[@name='lastname']")).getAttribute("value");
+    String changedName;
+    if (currentName.indexOf("-") > 0) {
+      changedName = currentName.substring(0, currentName.indexOf("-"));
+    } else {
+      changedName = currentName + "-MwalkrT";
+    }
+
     driver.findElement(By.xpath("//input[@name='lastname']")).clear();
     driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys(changedName);
-    driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Asdfghj1");
+    driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
     driver.findElement(By.xpath("//input[@name='customer_privacy']")).click();
     driver.findElement(By.xpath("//input[@name='psgdpr']")).click();
     driver.findElement(By.xpath("//button[contains(text(),'Save')]")).click();

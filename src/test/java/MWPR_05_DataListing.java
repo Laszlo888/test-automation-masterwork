@@ -16,14 +16,17 @@ public class MWPR_05_DataListing extends BaseTest {
         .findElement(
             By.xpath("//a[@href='http://test-automation-shop1.greenfox.academy/6-accessories']"))
         .click();
+    // wait for menu
     wait.until(
             ExpectedConditions.elementToBeClickable(
                 By.xpath("//button[contains(text(),'Relevance')]")))
         .click();
+    // choose from menu
     wait.until(
             ExpectedConditions.elementToBeClickable(
                 By.xpath("//a[contains(text(),'Price, low to high')]")))
         .click();
+    // wait for products
     wait.until(
         ExpectedConditions.elementToBeClickable(
             By.xpath("//button[contains(text(),'Price, low to high')]")));

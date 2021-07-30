@@ -12,15 +12,19 @@ public class MWPR_08_DataSavingFromCSV extends BaseTest {
 
     login();
 
-    // click 'add first address'
-    wait.until(ExpectedConditions.elementToBeClickable(By.id("addresses-link"))).click();
+    // click address menu
+    driver.findElement(By.xpath("//section[@id='content']//div[@class='links']/a[2]")).click();
+
     wait.until(ExpectedConditions.presenceOfElementLocated(By.partialLinkText("Ecommerce")));
 
     // decide we already have registered address or not
-    if (driver.findElement(By.xpath("//span[contains(text(),'Update')]")).isDisplayed()) {
+    try {
+      wait.until(
+          ExpectedConditions.visibilityOfElementLocated(
+              By.xpath("//span[contains(text(),'Update')]")));
       driver.findElement(By.xpath("//span[contains(text(),'Update')]")).click();
       wait.until(
-          ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='postcode']")));
+          ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@name='address1']")));
 
       fillForm(address, city, postalCode);
 
@@ -28,7 +32,7 @@ public class MWPR_08_DataSavingFromCSV extends BaseTest {
           ExpectedConditions.presenceOfElementLocated(
               By.xpath(
                   "//article[@data-alert='success']/ul/li[contains(text(),'Address successfully updated!')]")));
-    } else {
+    } catch (Exception ignored) {
 
       fillForm(address, city, postalCode);
 
@@ -39,7 +43,7 @@ public class MWPR_08_DataSavingFromCSV extends BaseTest {
     }
   }
 
-  public void fillForm(String address, String city, String postalCode ){
+  public void fillForm(String address, String city, String postalCode) {
     // fill from csv
     driver.findElement(By.xpath("//input[@name='address1']")).clear();
     driver.findElement(By.xpath("//input[@name='address1']")).sendKeys(address);
