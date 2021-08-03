@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MWPR_09_DataChange" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-30T15:11:42" hostname="VeresLaszlo-PC" time="29.566">
+<testsuite name="MWPR_09_DataChange" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-03T07:13:47" hostname="VeresLaszlo-PC" time="26.619">
   <properties/>
-  <testcase name="changingLastName()" classname="MWPR_09_DataChange" time="29.566"/>
+  <testcase name="changingLastName()" classname="MWPR_09_DataChange" time="26.619"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-1627657880282	geckodriver	INFO	Listening on 127.0.0.1:45143
-1627657886198	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofile3IDIrP"
-1627657887350	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofile3IDIrP\\search.json.mozlz4", (void 0)))
-console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
-console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
-1627657900496	Marionette	INFO	Listening on port 54447
-1627657900580	Marionette	WARN	TLS certificate errors will be ignored for this session
-júl. 30, 2021 5:11:40 DU. org.openqa.selenium.remote.ProtocolHandshake createSession
+  <system-err><![CDATA[1627974817309	geckodriver	INFO	Listening on 127.0.0.1:44712
+1627974817749	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileEeWEgv"
+1627974818497	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileEeWEgv\\search.json.mozlz4", (void 0)))
+1627974823781	Marionette	INFO	Listening on port 50525
+1627974824245	Marionette	WARN	TLS certificate errors will be ignored for this session
+aug. 03, 2021 9:13:44 DE. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1627657928599	Marionette	INFO	Stopped listening on port 54447
+1627974852796	Marionette	INFO	Stopped listening on port 50525
 ]]></system-err>
 </testsuite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MWPR_03_Loginfailed" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-03T07:10:53" hostname="VeresLaszlo-PC" time="3.453">
+  <properties/>
+  <testcase name="failedLogin()" classname="MWPR_03_Loginfailed" time="3.453"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1627974644193	geckodriver	INFO	Listening on 127.0.0.1:42799
+1627974644665	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileg9NsCB"
+1627974645257	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileg9NsCB\\search.json.mozlz4", (void 0)))
+1627974650801	Marionette	INFO	Listening on port 50202
+1627974651162	Marionette	WARN	TLS certificate errors will be ignored for this session
+aug. 03, 2021 9:10:51 DE. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1627974655882	Marionette	INFO	Stopped listening on port 50202
+JavaScript error: resource:///modules/FaviconLoader.jsm, line 596: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MWPR_11_DataExportToFile" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-03T07:14:41" hostname="VeresLaszlo-PC" time="3.053">
+  <properties/>
+  <testcase name="exportProductsNameToFile()" classname="MWPR_11_DataExportToFile" time="3.053"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1627974871213	geckodriver	INFO	Listening on 127.0.0.1:6087
+1627974871677	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofilehHeGoE"
+1627974872288	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofilehHeGoE\\search.json.mozlz4", (void 0)))
+1627974877808	Marionette	INFO	Listening on port 50640
+1627974878293	Marionette	WARN	TLS certificate errors will be ignored for this session
+aug. 03, 2021 9:14:38 DE. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1627974882475	Marionette	INFO	Stopped listening on port 50640
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+]]></system-err>
+</testsuite>
