@@ -21,7 +21,8 @@ Tesztesetek az automata teszteléshez:<br>
 <a href="https://drive.google.com/file/d/1luzG_1InTjkPGdTpRivkrEYIaCZ7Zo28/view?usp=sharing">tesztesetek</a>
 
 Tesztjelentés elérhetősége:<br>
-build/reports/allureReport/index.html 
+terminálban: gradlew allureServe
+projektben: build/reports/allureReport/index.html 
 
 
 
