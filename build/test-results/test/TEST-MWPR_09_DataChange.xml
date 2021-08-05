@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MWPR_09_DataChange" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-03T07:13:47" hostname="VeresLaszlo-PC" time="26.619">
+<testsuite name="MWPR_09_DataChange" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-05T06:50:22" hostname="VeresLaszlo-PC" time="26.295">
   <properties/>
-  <testcase name="changingLastName()" classname="MWPR_09_DataChange" time="26.619"/>
+  <testcase name="changingLastName()" classname="MWPR_09_DataChange" time="26.295"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1627974817309	geckodriver	INFO	Listening on 127.0.0.1:44712
-1627974817749	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileEeWEgv"
-1627974818497	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileEeWEgv\\search.json.mozlz4", (void 0)))
-1627974823781	Marionette	INFO	Listening on port 50525
-1627974824245	Marionette	WARN	TLS certificate errors will be ignored for this session
-aug. 03, 2021 9:13:44 DE. org.openqa.selenium.remote.ProtocolHandshake createSession
+  <system-err><![CDATA[1628146213088	geckodriver	INFO	Listening on 127.0.0.1:19791
+1628146213568	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileAEnwC7"
+1628146214152	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileAEnwC7\\search.json.mozlz4", (void 0)))
+1628146218893	Marionette	INFO	Listening on port 50782
+1628146219184	Marionette	WARN	TLS certificate errors will be ignored for this session
+aug. 05, 2021 8:50:19 DE. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1627974852796	Marionette	INFO	Stopped listening on port 50525
+1628146246935	Marionette	INFO	Stopped listening on port 50782
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
 ]]></system-err>
 </testsuite>

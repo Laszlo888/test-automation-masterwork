@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MWPR_06_Pagination" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-03T07:11:57" hostname="VeresLaszlo-PC" time="3.905">
+<testsuite name="MWPR_06_Pagination" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-05T06:48:56" hostname="VeresLaszlo-PC" time="4.175">
   <properties/>
-  <testcase name="pagination()" classname="MWPR_06_Pagination" time="3.905"/>
+  <testcase name="pagination()" classname="MWPR_06_Pagination" time="4.175"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1627974707640	geckodriver	INFO	Listening on 127.0.0.1:32128
-1627974708112	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileJ1mVbQ"
-1627974708743	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileJ1mVbQ\\search.json.mozlz4", (void 0)))
-1627974714532	Marionette	INFO	Listening on port 50355
-1627974715010	Marionette	WARN	TLS certificate errors will be ignored for this session
-aug. 03, 2021 9:11:55 DE. org.openqa.selenium.remote.ProtocolHandshake createSession
+  <system-err><![CDATA[1628146127625	geckodriver	INFO	Listening on 127.0.0.1:10605
+1628146128105	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofilevZXnLo"
+1628146128683	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofilevZXnLo\\search.json.mozlz4", (void 0)))
+1628146133288	Marionette	INFO	Listening on port 50618
+1628146133550	Marionette	WARN	TLS certificate errors will be ignored for this session
+aug. 05, 2021 8:48:53 DE. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+1628146139275	Marionette	INFO	Stopped listening on port 50618
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1627974720199	Marionette	INFO	Stopped listening on port 50355
 
-###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-
-###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
-
+[Parent 6368, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
 ]]></system-err>
 </testsuite>

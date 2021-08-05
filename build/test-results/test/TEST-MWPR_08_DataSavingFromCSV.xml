@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MWPR_08_DataSavingFromCSV" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-03T07:12:51" hostname="VeresLaszlo-PC" time="45.986">
+<testsuite name="MWPR_08_DataSavingFromCSV" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-05T06:49:47" hostname="VeresLaszlo-PC" time="25.373">
   <properties/>
-  <testcase name="saveAddress(String, String, String)[1]" classname="MWPR_08_DataSavingFromCSV" time="45.986"/>
+  <testcase name="saveAddress(String, String, String)[1]" classname="MWPR_08_DataSavingFromCSV" time="25.373"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1627974759841	geckodriver	INFO	Listening on 127.0.0.1:14206
-1627974760294	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileJi3FBK"
-1627974760870	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileJi3FBK\\search.json.mozlz4", (void 0)))
-1627974766370	Marionette	INFO	Listening on port 50465
-1627974766913	Marionette	WARN	TLS certificate errors will be ignored for this session
-aug. 03, 2021 9:12:46 DE. org.openqa.selenium.remote.ProtocolHandshake createSession
+  <system-err><![CDATA[1628146177621	geckodriver	INFO	Listening on 127.0.0.1:14778
+1628146178079	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileoYoFvQ"
+1628146178690	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileoYoFvQ\\search.json.mozlz4", (void 0)))
+1628146183665	Marionette	INFO	Listening on port 50727
+1628146183776	Marionette	WARN	TLS certificate errors will be ignored for this session
+aug. 05, 2021 8:49:43 DE. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1627974815556	Marionette	INFO	Stopped listening on port 50465
+1628146211376	Marionette	INFO	Stopped listening on port 50727
 ]]></system-err>
 </testsuite>

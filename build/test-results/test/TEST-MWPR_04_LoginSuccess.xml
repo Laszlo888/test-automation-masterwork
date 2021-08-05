@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MWPR_04_LoginSuccess" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-03T07:11:08" hostname="VeresLaszlo-PC" time="23.526">
+<testsuite name="MWPR_04_LoginSuccess" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-05T06:48:09" hostname="VeresLaszlo-PC" time="23.315">
   <properties/>
-  <testcase name="successfulLogin()" classname="MWPR_04_LoginSuccess" time="23.526"/>
+  <testcase name="successfulLogin()" classname="MWPR_04_LoginSuccess" time="23.315"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[1627974657540	geckodriver	INFO	Listening on 127.0.0.1:30168
-1627974658008	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileilqasT"
-1627974658650	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileilqasT\\search.json.mozlz4", (void 0)))
-1627974665537	Marionette	INFO	Listening on port 50251
-1627974666058	Marionette	WARN	TLS certificate errors will be ignored for this session
-aug. 03, 2021 9:11:06 DE. org.openqa.selenium.remote.ProtocolHandshake createSession
+  <system-err><![CDATA[1628146080527	geckodriver	INFO	Listening on 127.0.0.1:11106
+1628146081010	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileWMeMYp"
+1628146081638	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofileWMeMYp\\search.json.mozlz4", (void 0)))
+1628146086571	Marionette	INFO	Listening on port 50516
+1628146086916	Marionette	WARN	TLS certificate errors will be ignored for this session
+aug. 05, 2021 8:48:06 DE. org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-1627974691245	Marionette	INFO	Stopped listening on port 50251
-[Parent 7932, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1628146111798	Marionette	INFO	Stopped listening on port 50516
 ]]></system-err>
 </testsuite>
