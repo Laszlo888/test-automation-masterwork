@@ -60,8 +60,6 @@ public class BaseTest {
   }
 
   public void login() {
-    //    String email = "cecej@gmail.com";
-    //    String password = "Asdfghj1";
 
     driver.findElement(By.xpath("//span[contains(text(),'Sign in')]")).click();
     wait.until(
