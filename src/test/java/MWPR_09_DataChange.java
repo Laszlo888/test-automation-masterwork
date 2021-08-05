@@ -1,3 +1,6 @@
+import io.qameta.allure.Feature;
+import jdk.jfr.Description;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -6,6 +9,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class MWPR_09_DataChange extends BaseTest {
 
+  @DisplayName("Data changing")
+  @Feature("Updating data")
+  @Description("Changing last name")
   @Test
   public void changingLastName() {
 

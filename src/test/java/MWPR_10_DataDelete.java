@@ -1,3 +1,6 @@
+import io.qameta.allure.Feature;
+import jdk.jfr.Description;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -9,6 +12,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class MWPR_10_DataDelete extends BaseTest {
 
+  @DisplayName("Data deleting")
+  @Feature("Data delete")
+  @Description("Delete a product from cart")
   @Test
   public void deleteProductFromCart() {
 

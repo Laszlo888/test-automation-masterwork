@@ -1,3 +1,6 @@
+import io.qameta.allure.Feature;
+import jdk.jfr.Description;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -6,6 +9,9 @@ import java.util.Random;
 
 public class MWPR_01_RegSuccess extends BaseTest {
 
+  @DisplayName("Successful registration")
+  @Feature("Registration")
+  @Description("Do a successful registration")
   @Test
   public void successfulRegistration() {
 

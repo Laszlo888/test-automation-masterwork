@@ -1,9 +1,15 @@
+import io.qameta.allure.Feature;
+import jdk.jfr.Description;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class MWPR_03_Loginfailed extends BaseTest {
 
+    @DisplayName("Failed login")
+    @Feature("Login")
+    @Description("Do a failed login")
     @Test
     public void failedLogin() {
 

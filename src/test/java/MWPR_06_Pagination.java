@@ -1,3 +1,6 @@
+import io.qameta.allure.Feature;
+import jdk.jfr.Description;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -10,6 +13,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class MWPR_06_Pagination extends BaseTest {
 
+  @DisplayName("Pagination")
+  @Feature("pagination")
+  @Description("Display products on more pages")
   @Test
   public void pagination() {
 

@@ -1,3 +1,6 @@
+import io.qameta.allure.Feature;
+import jdk.jfr.Description;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -9,6 +12,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class MWPR_05_DataListing extends BaseTest {
 
+  @DisplayName("Data listing")
+  @Feature("Listing from low to high price")
+  @Description("Listing accessories from low to high price")
   @Test
   public void listingAccessoriesFromLowToHighPrice() {
 

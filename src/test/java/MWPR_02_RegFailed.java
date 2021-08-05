@@ -1,9 +1,15 @@
+import io.qameta.allure.Feature;
+import jdk.jfr.Description;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class MWPR_02_RegFailed extends BaseTest {
 
+  @DisplayName("Failed registration")
+  @Feature("Registration")
+  @Description("Do a failed registration")
   @Test
   public void failedRegistration() {
 

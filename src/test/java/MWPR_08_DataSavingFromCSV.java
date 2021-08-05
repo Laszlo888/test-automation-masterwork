@@ -1,3 +1,6 @@
+import io.qameta.allure.Feature;
+import jdk.jfr.Description;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.openqa.selenium.By;
@@ -6,6 +9,9 @@ import org.openqa.selenium.support.ui.Select;
 
 public class MWPR_08_DataSavingFromCSV extends BaseTest {
 
+  @DisplayName("Data input from csv file")
+  @Feature("Data saving")
+  @Description("Filling address form from csv file")
   @ParameterizedTest
   @CsvFileSource(resources = "/inputAddress.csv", numLinesToSkip = 1)
   public void saveAddress(String address, String city, String postalCode) {

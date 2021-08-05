@@ -1,3 +1,6 @@
+import io.qameta.allure.Feature;
+import jdk.jfr.Description;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
@@ -13,6 +16,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class MWPR_11_DataExportToFile extends BaseTest {
 
+  @DisplayName("Data export into file")
+  @Feature("Data saving into file")
+  @Description("Save accessories names into txt file")
   @Test
   public void exportProductsNameToFile() {
 
