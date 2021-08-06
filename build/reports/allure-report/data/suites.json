@@ -1,0 +1,209 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "MWPR_01_RegSuccess",
+    "children" : [ {
+      "name" : "Successful registration",
+      "uid" : "18db8059f130e98a",
+      "parentUid" : "2e6deea4faa874ec61a5467b1e2f4c6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628276964698,
+        "stop" : 1628276969969,
+        "duration" : 5271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2e6deea4faa874ec61a5467b1e2f4c6c"
+  }, {
+    "name" : "MWPR_02_RegFailed",
+    "children" : [ {
+      "name" : "Failed registration",
+      "uid" : "6793c7aaca45dbf6",
+      "parentUid" : "c93a1f17dab693426235d6e5dd73933b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628276981355,
+        "stop" : 1628276985563,
+        "duration" : 4208
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c93a1f17dab693426235d6e5dd73933b"
+  }, {
+    "name" : "MWPR_03_LoginFailed",
+    "children" : [ {
+      "name" : "Failed login",
+      "uid" : "6170ed8982fad6a3",
+      "parentUid" : "9e5d74e81c945cd5ea0c61ad05c25623",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628276996282,
+        "stop" : 1628276999189,
+        "duration" : 2907
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9e5d74e81c945cd5ea0c61ad05c25623"
+  }, {
+    "name" : "MWPR_04_LoginSuccess",
+    "children" : [ {
+      "name" : "Successful login",
+      "uid" : "b8699f4d4cf09e47",
+      "parentUid" : "05fd02c03f36226ff8377eeb9e136b89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628277009809,
+        "stop" : 1628277033030,
+        "duration" : 23221
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "05fd02c03f36226ff8377eeb9e136b89"
+  }, {
+    "name" : "MWPR_05_DataListing",
+    "children" : [ {
+      "name" : "Data listing",
+      "uid" : "6482b9faf1973500",
+      "parentUid" : "5a3a9432772c5fa8237062b7a27faafb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628277043867,
+        "stop" : 1628277048350,
+        "duration" : 4483
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5a3a9432772c5fa8237062b7a27faafb"
+  }, {
+    "name" : "MWPR_06_Pagination",
+    "children" : [ {
+      "name" : "Pagination",
+      "uid" : "1d646d987b92bc86",
+      "parentUid" : "183373a3bcf5af1ded274796984914b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628277058590,
+        "stop" : 1628277063137,
+        "duration" : 4547
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "183373a3bcf5af1ded274796984914b8"
+  }, {
+    "name" : "MWPR_07_DataSaving",
+    "children" : [ {
+      "name" : "Data saving",
+      "uid" : "d0c6b5d305c009f3",
+      "parentUid" : "a05e9fcee40b40e9b56e232896df3b0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628277073808,
+        "stop" : 1628277101023,
+        "duration" : 27215
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a05e9fcee40b40e9b56e232896df3b0c"
+  }, {
+    "name" : "MWPR_08_DataSavingFromCSV",
+    "children" : [ {
+      "name" : "[1] 36th Ave 113, Anchorage, 99501",
+      "uid" : "bae13b110dd5e1f7",
+      "parentUid" : "799d386c68f7ecbc1e861545af4ae896",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628277112875,
+        "stop" : 1628277137915,
+        "duration" : 25040
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "799d386c68f7ecbc1e861545af4ae896"
+  }, {
+    "name" : "MWPR_09_DataChange",
+    "children" : [ {
+      "name" : "Data changing",
+      "uid" : "e9b9ec0b6b7a396f",
+      "parentUid" : "231f67c6fc5a18c28d45a020360975d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628277148859,
+        "stop" : 1628277175264,
+        "duration" : 26405
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "231f67c6fc5a18c28d45a020360975d3"
+  }, {
+    "name" : "MWPR_10_DataDelete",
+    "children" : [ {
+      "name" : "Data deleting",
+      "uid" : "506575ff190806f8",
+      "parentUid" : "5f96286956ec84c161b0fde64683a441",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628277184670,
+        "stop" : 1628277191935,
+        "duration" : 7265
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5f96286956ec84c161b0fde64683a441"
+  }, {
+    "name" : "MWPR_11_DataExportToFile",
+    "children" : [ {
+      "name" : "Data export into file",
+      "uid" : "ae17cf918b9e146c",
+      "parentUid" : "e71e518349635f8c09e66d5ff29ba782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628277202218,
+        "stop" : 1628277205228,
+        "duration" : 3010
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e71e518349635f8c09e66d5ff29ba782"
+  }, {
+    "name" : "MWPR_12_LogOutSuccess",
+    "children" : [ {
+      "name" : "Log out",
+      "uid" : "d852acfd97751c5c",
+      "parentUid" : "597ef28d4625d329130565e735353298",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628277215521,
+        "stop" : 1628277240226,
+        "duration" : 24705
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "597ef28d4625d329130565e735353298"
+  } ]
+}

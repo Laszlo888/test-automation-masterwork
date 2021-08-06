@@ -42,7 +42,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -182,26 +182,30 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="685" y="208" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1628148764859" />
-    <state width="1864" height="258" key="GridCell.Tab.0.bottom" timestamp="1628275834314">
+    <state width="1864" height="258" key="GridCell.Tab.0.bottom" timestamp="1628277575667">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1628275834314" />
-    <state width="1864" height="258" key="GridCell.Tab.0.center" timestamp="1628275834314">
+    <state width="1864" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1628277575667" />
+    <state width="1864" height="258" key="GridCell.Tab.0.center" timestamp="1628277575667">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1628275834314" />
-    <state width="1864" height="258" key="GridCell.Tab.0.left" timestamp="1628275834314">
+    <state width="1864" height="258" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1628277575667" />
+    <state width="1864" height="258" key="GridCell.Tab.0.left" timestamp="1628277575667">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1628275834314" />
-    <state width="1864" height="258" key="GridCell.Tab.0.right" timestamp="1628275834314">
+    <state width="1864" height="258" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1628277575667" />
+    <state width="1864" height="258" key="GridCell.Tab.0.right" timestamp="1628277575667">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="258" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1628275834314" />
-    <state x="344" y="55" key="SettingsEditor" timestamp="1627742182017">
+    <state width="1864" height="258" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1628277575667" />
+    <state x="344" y="55" key="SettingsEditor" timestamp="1628276708707">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="344" y="55" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1627742182017" />
+    <state x="344" y="55" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1628276708707" />
+    <state x="612" y="179" width="675" height="655" key="StructurePopup" timestamp="1628276731047">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="612" y="179" width="675" height="655" key="StructurePopup/0.0.1920.1032@0.0.1920.1032" timestamp="1628276731047" />
     <state x="488" y="22" width="1108" height="987" key="new project wizard" timestamp="1628148767434">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

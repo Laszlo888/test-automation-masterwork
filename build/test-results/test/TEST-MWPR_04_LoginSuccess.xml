@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MWPR_04_LoginSuccess" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-06T19:10:09" hostname="VeresLaszlo-PC" time="23.221">
+  <properties/>
+  <testcase name="successfulLogin()" classname="MWPR_04_LoginSuccess" time="23.221"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.29.0 (resolved driver for Firefox 90)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\DN\.cache\selenium\geckodriver\win64\0.29.0\geckodriver.exe
+1628276999295	geckodriver	INFO	Listening on 127.0.0.1:5887
+1628276999751	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofilezqbsAk"
+1628277002133	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DN\\AppData\\Local\\Temp\\rust_mozprofilezqbsAk\\search.json.mozlz4", (void 0)))
+1628277006808	Marionette	INFO	Listening on port 62382
+1628277007180	Marionette	WARN	TLS certificate errors will be ignored for this session
+aug. 06, 2021 9:10:07 DU. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1628277031872	Marionette	INFO	Stopped listening on port 62382
+]]></system-err>
+</testsuite>

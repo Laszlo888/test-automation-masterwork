@@ -1,0 +1,60 @@
+{
+  "uid" : "506575ff190806f8",
+  "name" : "Data deleting",
+  "fullName" : "MWPR_10_DataDelete.deleteProductFromCart",
+  "historyId" : "c2499d1cc08bc9d7e9d0536190bf213c",
+  "time" : {
+    "start" : 1628277184670,
+    "stop" : 1628277191935,
+    "duration" : 7265
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Data delete"
+  }, {
+    "name" : "host",
+    "value" : "VeresLaszlo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "4844@VeresLaszlo-PC.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MWPR_10_DataDelete"
+  }, {
+    "name" : "testClass",
+    "value" : "MWPR_10_DataDelete"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteProductFromCart"
+  }, {
+    "name" : "suite",
+    "value" : "MWPR_10_DataDelete"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "506575ff190806f8.json",
+  "parameterValues" : [ ]
+}
