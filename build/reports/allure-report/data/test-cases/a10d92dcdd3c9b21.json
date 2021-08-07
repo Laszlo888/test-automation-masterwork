@@ -1,0 +1,61 @@
+{
+  "uid" : "a10d92dcdd3c9b21",
+  "name" : "Data listing",
+  "fullName" : "MWPR_05_DataListing.listingAccessoriesFromLowToHighPrice",
+  "historyId" : "9f670b3edb8a5ba7587271eee8553383",
+  "time" : {
+    "start" : 1628317489139,
+    "stop" : 1628317493619,
+    "duration" : 4480
+  },
+  "description" : "Listing accessories from low to high price",
+  "descriptionHtml" : "<p>Listing accessories from low to high price</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Listing from low to high price"
+  }, {
+    "name" : "host",
+    "value" : "VeresLaszlo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "3796@VeresLaszlo-PC.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MWPR_05_DataListing"
+  }, {
+    "name" : "testClass",
+    "value" : "MWPR_05_DataListing"
+  }, {
+    "name" : "testMethod",
+    "value" : "listingAccessoriesFromLowToHighPrice"
+  }, {
+    "name" : "suite",
+    "value" : "MWPR_05_DataListing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a10d92dcdd3c9b21.json",
+  "parameterValues" : [ ]
+}

@@ -5,13 +5,13 @@
     "name" : "MWPR_01_RegSuccess",
     "children" : [ {
       "name" : "Successful registration",
-      "uid" : "18db8059f130e98a",
+      "uid" : "7cf155df572c7583",
       "parentUid" : "2e6deea4faa874ec61a5467b1e2f4c6c",
       "status" : "passed",
       "time" : {
-        "start" : 1628276964698,
-        "stop" : 1628276969969,
-        "duration" : 5271
+        "start" : 1628317417512,
+        "stop" : 1628317422869,
+        "duration" : 5357
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,13 +22,13 @@
     "name" : "MWPR_02_RegFailed",
     "children" : [ {
       "name" : "Failed registration",
-      "uid" : "6793c7aaca45dbf6",
+      "uid" : "e02dbf36961e14c0",
       "parentUid" : "c93a1f17dab693426235d6e5dd73933b",
       "status" : "passed",
       "time" : {
-        "start" : 1628276981355,
-        "stop" : 1628276985563,
-        "duration" : 4208
+        "start" : 1628317431519,
+        "stop" : 1628317435943,
+        "duration" : 4424
       },
       "flaky" : false,
       "newFailed" : false,
@@ -39,13 +39,13 @@
     "name" : "MWPR_03_LoginFailed",
     "children" : [ {
       "name" : "Failed login",
-      "uid" : "6170ed8982fad6a3",
+      "uid" : "27fc3b6ad0c6f08b",
       "parentUid" : "9e5d74e81c945cd5ea0c61ad05c25623",
       "status" : "passed",
       "time" : {
-        "start" : 1628276996282,
-        "stop" : 1628276999189,
-        "duration" : 2907
+        "start" : 1628317445395,
+        "stop" : 1628317448458,
+        "duration" : 3063
       },
       "flaky" : false,
       "newFailed" : false,
@@ -56,13 +56,13 @@
     "name" : "MWPR_04_LoginSuccess",
     "children" : [ {
       "name" : "Successful login",
-      "uid" : "b8699f4d4cf09e47",
+      "uid" : "d8f7327f2556b3a8",
       "parentUid" : "05fd02c03f36226ff8377eeb9e136b89",
       "status" : "passed",
       "time" : {
-        "start" : 1628277009809,
-        "stop" : 1628277033030,
-        "duration" : 23221
+        "start" : 1628317457392,
+        "stop" : 1628317480612,
+        "duration" : 23220
       },
       "flaky" : false,
       "newFailed" : false,
@@ -73,13 +73,13 @@
     "name" : "MWPR_05_DataListing",
     "children" : [ {
       "name" : "Data listing",
-      "uid" : "6482b9faf1973500",
+      "uid" : "a10d92dcdd3c9b21",
       "parentUid" : "5a3a9432772c5fa8237062b7a27faafb",
       "status" : "passed",
       "time" : {
-        "start" : 1628277043867,
-        "stop" : 1628277048350,
-        "duration" : 4483
+        "start" : 1628317489139,
+        "stop" : 1628317493619,
+        "duration" : 4480
       },
       "flaky" : false,
       "newFailed" : false,
@@ -90,13 +90,13 @@
     "name" : "MWPR_06_Pagination",
     "children" : [ {
       "name" : "Pagination",
-      "uid" : "1d646d987b92bc86",
+      "uid" : "e99584123e08cfd7",
       "parentUid" : "183373a3bcf5af1ded274796984914b8",
       "status" : "passed",
       "time" : {
-        "start" : 1628277058590,
-        "stop" : 1628277063137,
-        "duration" : 4547
+        "start" : 1628317503213,
+        "stop" : 1628317507553,
+        "duration" : 4340
       },
       "flaky" : false,
       "newFailed" : false,
@@ -107,13 +107,13 @@
     "name" : "MWPR_07_DataSaving",
     "children" : [ {
       "name" : "Data saving",
-      "uid" : "d0c6b5d305c009f3",
+      "uid" : "333a21a321c4296d",
       "parentUid" : "a05e9fcee40b40e9b56e232896df3b0c",
       "status" : "passed",
       "time" : {
-        "start" : 1628277073808,
-        "stop" : 1628277101023,
-        "duration" : 27215
+        "start" : 1628317516577,
+        "stop" : 1628317543870,
+        "duration" : 27293
       },
       "flaky" : false,
       "newFailed" : false,
@@ -124,13 +124,13 @@
     "name" : "MWPR_08_DataSavingFromCSV",
     "children" : [ {
       "name" : "[1] 36th Ave 113, Anchorage, 99501",
-      "uid" : "bae13b110dd5e1f7",
+      "uid" : "47ec29d5c18645b6",
       "parentUid" : "799d386c68f7ecbc1e861545af4ae896",
       "status" : "passed",
       "time" : {
-        "start" : 1628277112875,
-        "stop" : 1628277137915,
-        "duration" : 25040
+        "start" : 1628317553368,
+        "stop" : 1628317578350,
+        "duration" : 24982
       },
       "flaky" : false,
       "newFailed" : false,
@@ -141,12 +141,12 @@
     "name" : "MWPR_09_DataChange",
     "children" : [ {
       "name" : "Data changing",
-      "uid" : "e9b9ec0b6b7a396f",
+      "uid" : "b12d5c5f6a7b3583",
       "parentUid" : "231f67c6fc5a18c28d45a020360975d3",
       "status" : "passed",
       "time" : {
-        "start" : 1628277148859,
-        "stop" : 1628277175264,
+        "start" : 1628317587288,
+        "stop" : 1628317613693,
         "duration" : 26405
       },
       "flaky" : false,
@@ -158,13 +158,13 @@
     "name" : "MWPR_10_DataDelete",
     "children" : [ {
       "name" : "Data deleting",
-      "uid" : "506575ff190806f8",
+      "uid" : "e7a5d03ec4dd04b7",
       "parentUid" : "5f96286956ec84c161b0fde64683a441",
       "status" : "passed",
       "time" : {
-        "start" : 1628277184670,
-        "stop" : 1628277191935,
-        "duration" : 7265
+        "start" : 1628317622257,
+        "stop" : 1628317629186,
+        "duration" : 6929
       },
       "flaky" : false,
       "newFailed" : false,
@@ -175,13 +175,13 @@
     "name" : "MWPR_11_DataExportToFile",
     "children" : [ {
       "name" : "Data export into file",
-      "uid" : "ae17cf918b9e146c",
+      "uid" : "8a08bef32d60541e",
       "parentUid" : "e71e518349635f8c09e66d5ff29ba782",
       "status" : "passed",
       "time" : {
-        "start" : 1628277202218,
-        "stop" : 1628277205228,
-        "duration" : 3010
+        "start" : 1628317637939,
+        "stop" : 1628317640430,
+        "duration" : 2491
       },
       "flaky" : false,
       "newFailed" : false,
@@ -192,13 +192,13 @@
     "name" : "MWPR_12_LogOutSuccess",
     "children" : [ {
       "name" : "Log out",
-      "uid" : "d852acfd97751c5c",
+      "uid" : "c5f2f6f8be47a605",
       "parentUid" : "597ef28d4625d329130565e735353298",
       "status" : "passed",
       "time" : {
-        "start" : 1628277215521,
-        "stop" : 1628277240226,
-        "duration" : 24705
+        "start" : 1628317649032,
+        "stop" : 1628317673123,
+        "duration" : 24091
       },
       "flaky" : false,
       "newFailed" : false,

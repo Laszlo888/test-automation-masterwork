@@ -19,8 +19,6 @@ dependencies {
     testImplementation group: 'org.assertj', name: 'assertj-core', version: '3.20.2'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
     implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '4.4.3'
-    testImplementation 'org.slf4j:slf4j-simple:1.7.31'
-    testImplementation 'org.slf4j:slf4j-api:1.7.31'
 }
 
 test {

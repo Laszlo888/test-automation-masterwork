@@ -1,0 +1,61 @@
+{
+  "uid" : "e02dbf36961e14c0",
+  "name" : "Failed registration",
+  "fullName" : "MWPR_02_RegFailed.failedRegistration",
+  "historyId" : "c0893d9a00c0f416880fc4b578ebe2dc",
+  "time" : {
+    "start" : 1628317431519,
+    "stop" : 1628317435943,
+    "duration" : 4424
+  },
+  "description" : "Do a failed registration",
+  "descriptionHtml" : "<p>Do a failed registration</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Registration"
+  }, {
+    "name" : "host",
+    "value" : "VeresLaszlo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "3796@VeresLaszlo-PC.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MWPR_02_RegFailed"
+  }, {
+    "name" : "testClass",
+    "value" : "MWPR_02_RegFailed"
+  }, {
+    "name" : "testMethod",
+    "value" : "failedRegistration"
+  }, {
+    "name" : "suite",
+    "value" : "MWPR_02_RegFailed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e02dbf36961e14c0.json",
+  "parameterValues" : [ ]
+}
