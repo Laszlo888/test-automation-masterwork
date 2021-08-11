@@ -2,7 +2,7 @@ Tesztelendő webalkalmazás elérhetősége:<br>
 http://test-automation-shop1.greenfox.academy/
 
 Teszkörnyezet: Mozilla Firefox<br>
-Programnyelv: Java (kiegészítők: gradle,selenium webdriver,junit,assertj,slf4j)
+Programnyelv: Java (kiegészítők: gradle,selenium webdriver,junit,assertj,slf4j)<br>
 tesztfuttatás gradle segítségével történik
 
 Tesztelt funkciók:
