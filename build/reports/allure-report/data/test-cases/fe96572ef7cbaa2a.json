@@ -1,0 +1,61 @@
+{
+  "uid" : "fe96572ef7cbaa2a",
+  "name" : "Data changing",
+  "fullName" : "MWPR_09_DataChange.changingLastName",
+  "historyId" : "c4236487f5e3c6957634d85d7f5558be",
+  "time" : {
+    "start" : 1628665835513,
+    "stop" : 1628665862927,
+    "duration" : 27414
+  },
+  "description" : "Changing last name",
+  "descriptionHtml" : "<p>Changing last name</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Updating data"
+  }, {
+    "name" : "host",
+    "value" : "VeresLaszlo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7940@VeresLaszlo-PC.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MWPR_09_DataChange"
+  }, {
+    "name" : "testClass",
+    "value" : "MWPR_09_DataChange"
+  }, {
+    "name" : "testMethod",
+    "value" : "changingLastName"
+  }, {
+    "name" : "suite",
+    "value" : "MWPR_09_DataChange"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe96572ef7cbaa2a.json",
+  "parameterValues" : [ ]
+}

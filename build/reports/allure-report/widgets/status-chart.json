@@ -1,0 +1,121 @@
+[ {
+  "uid" : "e18b6649859cbc7b",
+  "name" : "Data export into file",
+  "time" : {
+    "start" : 1628665890069,
+    "stop" : 1628665894518,
+    "duration" : 4449
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "73870e306547a815",
+  "name" : "Pagination",
+  "time" : {
+    "start" : 1628665770003,
+    "stop" : 1628665775195,
+    "duration" : 5192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1b4043a68945448",
+  "name" : "Data deleting",
+  "time" : {
+    "start" : 1628665871431,
+    "stop" : 1628665880275,
+    "duration" : 8844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7cb0bb7c81a9cb3",
+  "name" : "Successful login",
+  "time" : {
+    "start" : 1628665715759,
+    "stop" : 1628665740329,
+    "duration" : 24570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d56ac51ce605854",
+  "name" : "Successful registration",
+  "time" : {
+    "start" : 1628665670071,
+    "stop" : 1628665676942,
+    "duration" : 6871
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe96572ef7cbaa2a",
+  "name" : "Data changing",
+  "time" : {
+    "start" : 1628665835513,
+    "stop" : 1628665862927,
+    "duration" : 27414
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f45fbdee3763e8c",
+  "name" : "Data listing",
+  "time" : {
+    "start" : 1628665751262,
+    "stop" : 1628665759660,
+    "duration" : 8398
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "817a1230cb89af9d",
+  "name" : "[1] 36th Ave 113, Anchorage, 99501",
+  "time" : {
+    "start" : 1628665800666,
+    "stop" : 1628665827008,
+    "duration" : 26342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71239feebaca8d54",
+  "name" : "Log out",
+  "time" : {
+    "start" : 1628665904341,
+    "stop" : 1628665929609,
+    "duration" : 25268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0b6c6b67f46bc51",
+  "name" : "Failed registration",
+  "time" : {
+    "start" : 1628665686877,
+    "stop" : 1628665691686,
+    "duration" : 4809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9478a713611b881",
+  "name" : "Failed login",
+  "time" : {
+    "start" : 1628665701612,
+    "stop" : 1628665705533,
+    "duration" : 3921
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de4da66e9fbf7578",
+  "name" : "Data saving",
+  "time" : {
+    "start" : 1628665783974,
+    "stop" : 1628665790547,
+    "duration" : 6573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

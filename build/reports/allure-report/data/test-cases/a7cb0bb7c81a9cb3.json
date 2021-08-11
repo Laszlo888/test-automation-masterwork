@@ -1,0 +1,61 @@
+{
+  "uid" : "a7cb0bb7c81a9cb3",
+  "name" : "Successful login",
+  "fullName" : "MWPR_04_LoginSuccess.successfulLogin",
+  "historyId" : "d1c10cfc8b2d8a3cc748f6eeba063658",
+  "time" : {
+    "start" : 1628665715759,
+    "stop" : 1628665740329,
+    "duration" : 24570
+  },
+  "description" : "Do a successful login",
+  "descriptionHtml" : "<p>Do a successful login</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "host",
+    "value" : "VeresLaszlo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7940@VeresLaszlo-PC.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MWPR_04_LoginSuccess"
+  }, {
+    "name" : "testClass",
+    "value" : "MWPR_04_LoginSuccess"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulLogin"
+  }, {
+    "name" : "suite",
+    "value" : "MWPR_04_LoginSuccess"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7cb0bb7c81a9cb3.json",
+  "parameterValues" : [ ]
+}

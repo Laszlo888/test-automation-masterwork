@@ -1,0 +1,61 @@
+{
+  "uid" : "b9478a713611b881",
+  "name" : "Failed login",
+  "fullName" : "MWPR_03_LoginFailed.failedLogin",
+  "historyId" : "f3b6a724e31c888b404bf9f0cd9537de",
+  "time" : {
+    "start" : 1628665701612,
+    "stop" : 1628665705533,
+    "duration" : 3921
+  },
+  "description" : "Do a failed login",
+  "descriptionHtml" : "<p>Do a failed login</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "host",
+    "value" : "VeresLaszlo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7940@VeresLaszlo-PC.Test worker(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MWPR_03_LoginFailed"
+  }, {
+    "name" : "testClass",
+    "value" : "MWPR_03_LoginFailed"
+  }, {
+    "name" : "testMethod",
+    "value" : "failedLogin"
+  }, {
+    "name" : "suite",
+    "value" : "MWPR_03_LoginFailed"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9478a713611b881.json",
+  "parameterValues" : [ ]
+}
